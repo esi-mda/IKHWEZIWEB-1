@@ -2258,3 +2258,315 @@ footer {
 footer {
     text-align: center;
 }
+
+/* =====================================================
+   RESPONSIVE DESIGN - MEDIA QUERIES
+   ===================================================== */
+
+/* ================= TABLETS ================= */
+
+@media screen and (max-width: 992px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .about-info {
+        gap: 20px;
+        padding: 30px 4%;
+    }
+
+    .about-card {
+        width: 280px;
+    }
+
+    .values-container {
+        gap: 20px;
+    }
+
+    .value-card {
+        width: 230px;
+    }
+}
+
+
+/* ================= MOBILE PHONES ================= */
+
+@media screen and (max-width: 768px) {
+
+    /* Header */
+    header {
+        padding: 20px 10px;
+    }
+
+    .logo h2 {
+        font-size: 22px;
+    }
+
+    /* Navigation */
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .nav-links li {
+        list-style: none;
+    }
+
+    /* About introduction */
+    .about-intro {
+        padding: 30px 15px;
+    }
+
+    .about-intro h1 {
+        font-size: 30px;
+    }
+
+    .about-intro p {
+        font-size: 16px;
+    }
+
+    /* Story, Mission & Vision */
+    .about-info {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 15px;
+    }
+
+    .about-card {
+        width: 90%;
+        max-width: 450px;
+        padding: 25px 20px;
+    }
+
+    .about-card h2 {
+        font-size: 26px;
+    }
+
+    .about-card p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    /* Our Values */
+    .values {
+        padding: 30px 15px;
+    }
+
+    .values h1 {
+        font-size: 30px;
+    }
+
+    .values-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .value-card {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    /* Why Choose Us */
+    .why-choose {
+        padding: 30px 15px;
+    }
+
+    .why-choose h2 {
+        font-size: 26px;
+    }
+
+    .why-choose ul {
+        text-align: left;
+        padding-left: 25px;
+    }
+
+    /* Call to Action */
+    .call-to-action {
+        padding: 30px 15px;
+    }
+
+    .call-to-action h2 {
+        font-size: 26px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px 15px;
+        text-align: center;
+    }
+}
+
+
+/* ================= SMALL PHONES ================= */
+
+@media screen and (max-width: 480px) {
+
+    .logo h2 {
+        font-size: 19px;
+    }
+
+    .about-intro h1 {
+        font-size: 25px;
+    }
+
+    .about-intro p {
+        font-size: 14px;
+    }
+
+    .about-card {
+        width: 92%;
+        padding: 22px 15px;
+    }
+
+    .about-card h2 {
+        font-size: 23px;
+    }
+
+    .about-card p {
+        font-size: 14px;
+    }
+
+    .values h1 {
+        font-size: 26px;
+    }
+
+    .value-card {
+        width: 92%;
+        padding: 25px 18px;
+    }
+
+    .value-card h3 {
+        font-size: 22px;
+    }
+
+    .value-card p {
+        font-size: 14px;
+    }
+
+    .call-to-action h2 {
+        font-size: 23px;
+    }
+}
+
+/* ================= RESPONSIVE LAYOUT ================= */
+
+/* Tablets */
+@media (max-width: 992px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .values-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+/* Mobile phones */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .about-intro {
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .about-intro h1 {
+        font-size: 28px;
+    }
+
+    .about-info {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+    }
+
+    .about-card {
+        width: 90%;
+        max-width: 450px;
+    }
+
+    .values-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .value-card {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .why-choose {
+        text-align: center;
+    }
+
+    .call-to-action {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+
+/* Small mobile phones */
+@media (max-width: 480px) {
+
+    .logo h2 {
+        font-size: 19px;
+    }
+
+    .about-intro h1 {
+        font-size: 24px;
+    }
+
+    .about-card {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .about-card h2 {
+        font-size: 23px;
+    }
+
+    .about-card p {
+        font-size: 14px;
+    }
+
+    .value-card {
+        width: 95%;
+    }
+}
