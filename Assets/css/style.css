@@ -2570,3 +2570,19 @@ footer {
         width: 95%;
     }
 }
+body {
+    background-image: url("../images/ChatGPT\ Image\ Sep\ 10\,\ 2026\,\ 10_40_46\ AM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* ================= WEBSITE BACKGROUND ================= */
+
+body {
+    background-image: url("../images/ChatGPT\ Image\ Sep\ 10\,\ 2026\,\ 10_40_46\ AM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
