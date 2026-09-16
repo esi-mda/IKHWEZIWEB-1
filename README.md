@@ -126,6 +126,11 @@ The form includes:
 - Hair concerns
 - Submit button
 
+## Our Brand page
+The form includes
+-About ikhwezi
+-What ikhwezi represents
+-Our Messages
 ---
 
 
