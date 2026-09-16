@@ -299,4 +299,30 @@ The stylesheet supports usability and accessibility by providing:
 
 ## Purpose
 
-The purpose of this stylesheet is to create a professional, consistent and responsive visual design for the IKHWEZI Hair Care Products website while ensuring that the website can be viewed effectively on desktop, tablet and mobile devices.
+The purpose of this stylesheet is to create a professional, consistent and responsive visual design for the IKHWEZI Hair Care Products website while ensuring that the website can be viewed effectively on desktop, tablet and mobile devices. 
+
+REFERENCES
+
+Mozilla Developer Network (MDN), 2026. HTML: HyperText Markup Language.
+Available at: https://developer.mozilla.org/en-US/docs/Web/HTML
+[Accessed 16 September 2026].
+
+Mozilla Developer Network (MDN), 2026. CSS: Cascading Style Sheets.
+Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+[Accessed 16 September 2026].
+
+Mozilla Developer Network (MDN), 2026. CSS media queries.
+Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries
+[Accessed 16 September 2026].
+
+W3Schools, 2026. CSS Responsive Web Design.
+Available at: https://www.w3schools.com/css/css_rwd_intro.asp
+[Accessed 16 September 2026].
+
+W3Schools, 2026. HTML Forms.
+Available at: https://www.w3schools.com/html/html_forms.asp
+[Accessed 16 September 2026].
+
+W3C, 2026. Web Accessibility Initiative (WAI).
+Available at: https://www.w3.org/WAI/
+[Accessed 16 September 2026].
